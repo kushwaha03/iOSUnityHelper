@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		142BE290D8F2A6C653CACCFD /* Pods-iOSUnityHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSUnityHelper_Example/Pods-iOSUnityHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		58BF0DDF590D50FA186EFA6D /* Pods_iOSUnityHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUnityHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BC6E811F68665250A5DC4CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5BC6E811F68665250A5DC4CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* iOSUnityHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSUnityHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		97FE47A35AD3BCC79CC0DCEF /* Pods_iOSUnityHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUnityHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A62983A3AAB8AD0DB6A7CB /* Pods-iOSUnityHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSUnityHelper_Tests/Pods-iOSUnityHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B68BBF15B5819DDCB9610890 /* iOSUnityHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSUnityHelper.podspec; path = ../iOSUnityHelper.podspec; sourceTree = "<group>"; };
-		BB77217853952DEB205B71E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B68BBF15B5819DDCB9610890 /* iOSUnityHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSUnityHelper.podspec; path = ../iOSUnityHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB77217853952DEB205B71E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD5D51D80B1B2CD16B86E610 /* Pods-iOSUnityHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSUnityHelper_Tests/Pods-iOSUnityHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C645AF6E9D2CF867F397BB09 /* Pods-iOSUnityHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSUnityHelper_Example/Pods-iOSUnityHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K276AG3ZMP;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = K276AG3ZMP;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -481,6 +483,7 @@
 			baseConfigurationReference = C645AF6E9D2CF867F397BB09 /* Pods-iOSUnityHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K276AG3ZMP;
 				INFOPLIST_FILE = iOSUnityHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -496,6 +499,7 @@
 			baseConfigurationReference = 142BE290D8F2A6C653CACCFD /* Pods-iOSUnityHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K276AG3ZMP;
 				INFOPLIST_FILE = iOSUnityHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD5D51D80B1B2CD16B86E610 /* Pods-iOSUnityHelper_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K276AG3ZMP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 99A62983A3AAB8AD0DB6A7CB /* Pods-iOSUnityHelper_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = K276AG3ZMP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
