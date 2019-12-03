@@ -14,6 +14,7 @@
 		77D96D792C917E3D51A8E2A08A363D03 /* Pods-iOSUnityHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4C20552CD501C4F71798BA7129F55B /* Pods-iOSUnityHelper_Tests-dummy.m */; };
 		7D99B14286A66D3ACA66DD04A2FA339F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		AD04FD009B093683A5F3329A9121D79A /* iOSUnityHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C237EC6248D459A453AF4296E256E4 /* iOSUnityHelper-dummy.m */; };
+		B610013123963E42004DF708 /* RoundedUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B610013023963E42004DF708 /* RoundedUIImageView.swift */; };
 		C3FA0B468CAB78F54FF954C1DD1B6B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		DD18076C662C8E53F5BEF461F0378810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		FD353B9C56F70EFCDA2F0FFB34474C20 /* Pods-iOSUnityHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7F96F356F53D1EA6EC040E3AC94105 /* Pods-iOSUnityHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,24 +42,25 @@
 		08E3A91F05D0CCBB7B6EA7AAA6BCF723 /* iOSUnityHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSUnityHelper-prefix.pch"; sourceTree = "<group>"; };
 		1115A763D283BC4A56BF19CC4DAA6A7E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = iOSUnityHelper/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		13539F423E00C337B568B3AF93AEE5B4 /* Pods-iOSUnityHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSUnityHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2985B3E736A793773F54AEFAD5664184 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2985B3E736A793773F54AEFAD5664184 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2A3FAB9DB8940B3C8F8363F7AA8BD734 /* Pods-iOSUnityHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSUnityHelper_Tests-resources.sh"; sourceTree = "<group>"; };
 		2D902BA1507CA9A6CD127A3BBBDF1CA7 /* Pods-iOSUnityHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSUnityHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		38CCDC3DE6A45439130F3B60BF147C67 /* Pods-iOSUnityHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSUnityHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		3D8DCFC7720E3CD03C5B3B0A77DF6EB0 /* Pods-iOSUnityHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSUnityHelper_Example.modulemap"; sourceTree = "<group>"; };
 		52820AE63DCCFE68E18173BBFD3AAD04 /* Pods-iOSUnityHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSUnityHelper_Example-resources.sh"; sourceTree = "<group>"; };
-		5346BB0CF066E097F41665641A96B07A /* iOSUnityHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = iOSUnityHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5346BB0CF066E097F41665641A96B07A /* iOSUnityHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = iOSUnityHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D69F11E75C2AEA05852FA1236884423 /* Pods-iOSUnityHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSUnityHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6AC5A873C8A396FDA0C5802D20347E80 /* Pods-iOSUnityHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSUnityHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6B82507CF777300E44F3A399FFEEEFD2 /* Pods_iOSUnityHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSUnityHelper_Tests.framework; path = "Pods-iOSUnityHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B82507CF777300E44F3A399FFEEEFD2 /* Pods_iOSUnityHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUnityHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD5AFE18867424625C368DF8EAB60FC /* Pods-iOSUnityHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSUnityHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		72989895D5A1E1DFB9F5D7829BCB3EDB /* Pods_iOSUnityHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSUnityHelper_Example.framework; path = "Pods-iOSUnityHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72989895D5A1E1DFB9F5D7829BCB3EDB /* Pods_iOSUnityHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUnityHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E56D53AF989312B0BA2CC85AA50877 /* iOSUnityHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSUnityHelper-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2516038A055CD85BBD8D36047487C80 /* Pods-iOSUnityHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSUnityHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AC4C20552CD501C4F71798BA7129F55B /* Pods-iOSUnityHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSUnityHelper_Tests-dummy.m"; sourceTree = "<group>"; };
-		B2D8DD61902FDFF6E8BFEE3EC9731248 /* iOSUnityHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSUnityHelper.framework; path = iOSUnityHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7295905E6E73454F4AC4092F0B0F404 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B2D8DD61902FDFF6E8BFEE3EC9731248 /* iOSUnityHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSUnityHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B610013023963E42004DF708 /* RoundedUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedUIImageView.swift; path = iOSUnityHelper/Classes/UIView/RoundedUIImageView.swift; sourceTree = "<group>"; };
+		B7295905E6E73454F4AC4092F0B0F404 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BC7F96F356F53D1EA6EC040E3AC94105 /* Pods-iOSUnityHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSUnityHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		BCF040F72BF3931722EF6C46926C0D14 /* Pods-iOSUnityHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSUnityHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C501253BDB2BDBEFDC28F34CC246FDA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				1115A763D283BC4A56BF19CC4DAA6A7E /* ReplaceMe.swift */,
+				B610013023963E42004DF708 /* RoundedUIImageView.swift */,
 				432D3E97E07D1A46BBA75E4E8EC6C777 /* Pod */,
 				6F2949B85B2B2D6F8DF0ECDBB42E6EFF /* Support Files */,
 			);
@@ -380,6 +383,7 @@
 			files = (
 				AD04FD009B093683A5F3329A9121D79A /* iOSUnityHelper-dummy.m in Sources */,
 				0F9464B1F358A1623BEDDD43A472D2D4 /* ReplaceMe.swift in Sources */,
+				B610013123963E42004DF708 /* RoundedUIImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,8 +601,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
