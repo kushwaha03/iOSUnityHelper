@@ -1,0 +1,6 @@
+framework module Pods_iOSUnityHelper_Example {
+  umbrella header "Pods-iOSUnityHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

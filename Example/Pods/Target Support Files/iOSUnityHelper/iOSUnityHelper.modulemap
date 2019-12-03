@@ -1,0 +1,6 @@
+framework module iOSUnityHelper {
+  umbrella header "iOSUnityHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - iOSUnityHelper (0.1.0)
+
+DEPENDENCIES:
+  - iOSUnityHelper (from `../`)
+
+EXTERNAL SOURCES:
+  iOSUnityHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSUnityHelper: 474c744ce1167b6d945d9cc7bdc43490f1a9a885
+
+PODFILE CHECKSUM: 7957fde84450bff272b115b79f7e8e8510b5c246
+
+COCOAPODS: 1.5.3
